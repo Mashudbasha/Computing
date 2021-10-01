@@ -1,0 +1,51 @@
+package com.day9;
+
+public class Computingwages {
+
+	public static void main(String[] args) {
+		
+		// TODO Auto-generated method stub
+	
+
+		    int employeeId;
+		    String employeeName;
+		    double salary;
+		    double netSalary;
+
+		   
+		    public void setEmployeeId(int employeeId){
+		        this.employeeId=employeeId;
+		    }
+		    public void setEmployeeName(String employeeName){
+		        this.employeeName=employeeName;
+		    }
+		    public void setSalary(double salary){
+		        this.salary=salary;
+		    }
+		    public void netSalary(double netSalary){
+		        this.netSalary=netSalary;
+		    }
+
+		    public int getEmployeeId(){
+		        return employeeId;
+		    }
+		    public String getEmployeeName(){
+		        return employeeName;
+		    }
+		    public double getSalary(){
+		        return salary;
+		    }
+		    public double getNetSalary(){
+		        return netSalary;
+		    }
+
+		    public void calculateNetSalary(int pfpercentage){
+
+		        pfamount=salary*pfpercentage;
+		        netSalary=salary-pfamount;
+		    }
+		
+
+	}
+
+}
